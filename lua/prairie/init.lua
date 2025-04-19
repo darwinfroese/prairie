@@ -307,6 +307,9 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.type.operator")({ fg = fg, gui = "bold" }),
 		sym("@lsp.function.method.call")({ fg = fg }),
 		sym("@module")({ fg = fg }),
+
+		-- Typescript
+		sym("tsxTagName")({ fg = unset }),
 	}
 end)
 
