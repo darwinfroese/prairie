@@ -306,6 +306,7 @@ local theme = lush(function(injected_functions)
 		sym("@lsp.type.namespace")({}),
 		sym("@lsp.type.operator")({ fg = fg, gui = "bold" }),
 		sym("@lsp.function.method.call")({ fg = fg }),
+		sym("@module")({ fg = fg }),
 	}
 end)
 
