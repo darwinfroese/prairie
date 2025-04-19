@@ -173,7 +173,7 @@ local theme = lush(function(injected_functions)
 		Conditional({ Statement }), --   if, then, else, endif, switch, etc.
 		Repeat({ Statement }), --   for, do, while, etc.
 		Label({ Statement }), --   case, default, etc.
-		Operator({ fg = fg, gui = "bold" }), --   "sizeof", "+", "*", etc.
+		Operator({ fg = fg }), --   "sizeof", "+", "*", etc.
 		Keyword({ Statement }), --   any other keyword
 		Exception({ Statement }), --   try, catch, throw
 
@@ -235,11 +235,11 @@ local theme = lush(function(injected_functions)
 		DiagnosticFloatingInfo({ DiagnosticInfo }), -- Used to color "Info" diagnostic messages in diagnostics float.
 		DiagnosticFloatingHint({ DiagnosticHint }), -- Used to color "Hint" diagnostic messages in diagnostics float.
 		DiagnosticFloatingOk({ DiagnosticOk }), -- Used to color "Ok" diagnostic messages in diagnostics float.
-		DiagnosticSignError({ DiagnosticError }), -- Used for "Error" signs in sign column.
-		DiagnosticSignWarn({ DiagnosticWarn }), -- Used for "Warn" signs in sign column.
-		DiagnosticSignInfo({ DiagnosticInfo }), -- Used for "Info" signs in sign column.
-		DiagnosticSignHint({ DiagnosticHint }), -- Used for "Hint" signs in sign column.
-		DiagnosticSignOk({ DiagnosticOk }), -- Used for "Ok" signs in sign column.
+		DiagnosticSignError({ fg = red }), -- Used for "Error" signs in sign column.
+		DiagnosticSignWarn({ fg = yellow }), -- Used for "Warn" signs in sign column.
+		DiagnosticSignInfo({ fg = green }), -- Used for "Info" signs in sign column.
+		DiagnosticSignHint({ fg = blue }), -- Used for "Hint" signs in sign column.
+		DiagnosticSignOk({ fg = green }), -- Used for "Ok" signs in sign column.
 
 		-- Tree-Sitter syntax groups.
 		--
