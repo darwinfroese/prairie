@@ -98,7 +98,7 @@ local theme = lush(function(injected_functions)
 		TermCursor({ Cursor }), -- Cursor in a focused terminal
 		TermCursorNC({ Cursor }), -- Cursor in an unfocused terminal
 		ErrorMsg({ fg = red, gui = "italic" }), -- Error messages on the command line
-		VertSplit({ fg = blue, bg = blue }), -- Column separating vertically split windows
+		VertSplit({ fg = blue, bg = bg }), -- Column separating vertically split windows
 		Folded({ bg = blue_bg }), -- Line used for closed folds
 		FoldColumn({ Folded }), -- 'foldcolumn'
 		SignColumn({}), -- Column where |signs| are displayed
@@ -286,7 +286,7 @@ local theme = lush(function(injected_functions)
 		sym("@method")({ Function }), -- Function
 		sym("@field")({ Normal }), -- Identifier
 		sym("@property")({ Normal }), -- Identifier
-		sym("@constructor")({ Normal }), -- Special
+		sym("@constructor")({ fg = fg }), -- Special
 		sym("@conditional")({ Conditional }), -- Conditional
 		sym("@repeat")({ Repeat }), -- Repeat
 		sym("@label")({ Label }), -- Label
@@ -304,6 +304,8 @@ local theme = lush(function(injected_functions)
 		sym("@debug")({ Debug }), -- Debug
 		sym("@tag")({ Tag }), -- Tag
 		sym("@lsp.type.namespace")({}),
+		sym("@lsp.type.operator")({ fg = fg, gui = "bold" }),
+		sym("@lsp.function.method.call")({ fg = fg }),
 	}
 end)
 
