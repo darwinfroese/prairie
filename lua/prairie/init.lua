@@ -309,7 +309,8 @@ local theme = lush(function(injected_functions)
 		sym("@module")({ fg = fg }),
 
 		-- Typescript
-		sym("tsxTagName")({ fg = unset }),
+		sym("tsxTagName")({ fg = fg }),
+		sym("typescriptBraces")({ fg = fg }),
 	}
 end)
 
