@@ -107,9 +107,9 @@ local theme = lush(function(injected_functions)
 		LineNr({ fg = fg, gui = "bold italic" }), -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
 		LineNrAbove({ fg = fg_light, gui = "italic" }), -- Line number for when the 'relativenumber' option is set, above the cursor line
 		LineNrBelow({ fg = fg_light, gui = "italic" }), -- Line number for when the 'relativenumber' option is set, below the cursor line
-		CursorLineNr({ CursorLine, gui = "bold" }), -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-		CursorLineFold({ CursorLine }), -- Like FoldColumn when 'cursorline' is set for the cursor line
-		CursorLineSign({ CursorLine }), -- Like SignColumn when 'cursorline' is set for the cursor line
+		CursorLineNr({ gui = "bold" }), -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+		CursorLineFold({}), -- Like FoldColumn when 'cursorline' is set for the cursor line
+		CursorLineSign({}), -- Like SignColumn when 'cursorline' is set for the cursor line
 		MatchParen({ bg = fg_light }), -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg({ fg = green, gui = "italic" }), -- 'showmode' message (e.g., "-- INSERT -- ")
 		MsgArea({ ModeMsg }), -- Area for messages and cmdline
@@ -139,7 +139,7 @@ local theme = lush(function(injected_functions)
 		StatusLine({ fg = fg, bg = bg_visual }), -- Status line of current window
 		StatusLineNC({ StatusLine }), -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
 		TabLine({ fg = fg, bg = bg_visual }), -- Tab pages line, not active tab page label
-		TabLineFill({ TabLine }), -- Tab pages line, where there are no labels
+		TabLineFill({ fg = fg }), -- Tab pages line, where there are no labels
 		TabLineSel({ TabLine, gui = "italic bold" }), -- Tab pages line, active tab page label
 		Title({ fg = fg, gui = "bold" }), -- Titles for output from ":set all", ":autocmd" etc.
 		VisualNOS({ fg = fg }), -- Visual mode selection when vim is "Not Owning the Selection".
