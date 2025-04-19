@@ -303,6 +303,7 @@ local theme = lush(function(injected_functions)
 		sym("@preproc")({ PreProc }), -- PreProc
 		sym("@debug")({ Debug }), -- Debug
 		sym("@tag")({ Tag }), -- Tag
+		sym("@lsp.type.namespace")({ bg = unset }),
 	}
 end)
 
