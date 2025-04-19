@@ -173,7 +173,7 @@ local theme = lush(function(injected_functions)
 		Conditional({ Statement }), --   if, then, else, endif, switch, etc.
 		Repeat({ Statement }), --   for, do, while, etc.
 		Label({ Statement }), --   case, default, etc.
-		Operator({ Statement }), --   "sizeof", "+", "*", etc.
+		Operator({ fg = fg, gui = "bold" }), --   "sizeof", "+", "*", etc.
 		Keyword({ Statement }), --   any other keyword
 		Exception({ Statement }), --   try, catch, throw
 
@@ -265,7 +265,7 @@ local theme = lush(function(injected_functions)
 		sym("@text.underline")({ Underlined }), -- Underlined
 		sym("@text.todo")({ Todo }), -- Todo
 		sym("@comment")({ Comment }), -- Comment
-		sym("@punctuation")({ Normal }), -- Delimiter
+		sym("@punctuation")({ fg = fg }), -- Delimiter
 		sym("@constant")({ Constant }), -- Constant
 		sym("@constant.builtin")({ Constant }), -- Special
 		sym("@constant.macro")({ Macro }), -- Define
@@ -282,10 +282,10 @@ local theme = lush(function(injected_functions)
 		sym("@function")({ Function }), -- Function
 		sym("@function.builtin")({ Function }), -- Special
 		sym("@function.macro")({ Macro }), -- Macro
-		sym("@parameter")({ Normal }), -- Identifier
+		sym("@parameter")({ fg = fg }), -- Identifier
 		sym("@method")({ Function }), -- Function
-		sym("@field")({ Normal }), -- Identifier
-		sym("@property")({ Normal }), -- Identifier
+		sym("@field")({ fg = fg }), -- Identifier
+		sym("@property")({ fg = fg, gui = "bold" }), -- Identifier
 		sym("@constructor")({ fg = fg }), -- Special
 		sym("@conditional")({ Conditional }), -- Conditional
 		sym("@repeat")({ Repeat }), -- Repeat
@@ -293,7 +293,7 @@ local theme = lush(function(injected_functions)
 		sym("@operator")({ Operator }), -- Operator
 		sym("@keyword")({ Keyword }), -- Keyword
 		sym("@exception")({ Exception }), -- Exception
-		sym("@variable")({ Normal }), -- Identifier
+		sym("@variable")({ fg = fg }), -- Identifier
 		sym("@type")({ Type }), -- Type
 		sym("@type.definition")({ Typedef }), -- Typedef
 		sym("@storageclass")({ StorageClass }), -- StorageClass
