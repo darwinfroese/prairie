@@ -235,7 +235,7 @@ local theme = lush(function(injected_functions)
 		DiagnosticFloatingInfo({ DiagnosticInfo }), -- Used to color "Info" diagnostic messages in diagnostics float.
 		DiagnosticFloatingHint({ DiagnosticHint }), -- Used to color "Hint" diagnostic messages in diagnostics float.
 		DiagnosticFloatingOk({ DiagnosticOk }), -- Used to color "Ok" diagnostic messages in diagnostics float.
-		DiagnosticSignError({ fg = red, bg = red_bg, sp = red_bg }), -- Used for "Error" signs in sign column.
+		DiagnosticSignError({ fg = red }), -- Used for "Error" signs in sign column.
 		DiagnosticSignWarn({ fg = yellow }), -- Used for "Warn" signs in sign column.
 		DiagnosticSignInfo({ fg = green }), -- Used for "Info" signs in sign column.
 		DiagnosticSignHint({ fg = blue }), -- Used for "Hint" signs in sign column.
