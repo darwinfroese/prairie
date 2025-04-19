@@ -224,7 +224,7 @@ local theme = lush(function(injected_functions)
 		DiagnosticVirtualTextWarn({ DiagnosticWarn }), -- Used for "Warn" diagnostic virtual text.
 		DiagnosticVirtualTextInfo({ DiagnosticInfo }), -- Used for "Info" diagnostic virtual text.
 		DiagnosticVirtualTextHint({ DiagnosticHint }), -- Used for "Hint" diagnostic virtual text.
-		DiagnosticVirtualTextOk({ DianosticOk }), -- Used for "Ok" diagnostic virtual text.
+		DiagnosticVirtualTextOk({ DiagnosticOk }), -- Used for "Ok" diagnostic virtual text.
 		DiagnosticUnderlineError({ DiagnosticError }), -- Used to underline "Error" diagnostics.
 		DiagnosticUnderlineWarn({ DiagnosticWarn }), -- Used to underline "Warn" diagnostics.
 		DiagnosticUnderlineInfo({ DiagnosticInfo }), -- Used to underline "Info" diagnostics.
