@@ -197,7 +197,7 @@ local theme = lush(function(injected_functions)
 
 		Underlined({ fg = blue, gui = "underline" }), -- Text that stands out, HTML links
 		Ignore({ fg = fg_light, gui = "italic" }), -- Left blank, hidden |hl-Ignore| (NOTE: May be invisible here in template)
-		Error({ fg = fg, bg = red, gui = "italic" }), -- Any erroneous construct
+		Error({ fg = red, gui = "italic" }), -- Any erroneous construct
 		Todo({ fg = blue, gui = "bold italic" }), -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
 		-- These groups are for the native LSP client and diagnostic system. Some
@@ -225,11 +225,11 @@ local theme = lush(function(injected_functions)
 		DiagnosticVirtualTextInfo({ DiagnosticInfo }), -- Used for "Info" diagnostic virtual text.
 		DiagnosticVirtualTextHint({ DiagnosticHint }), -- Used for "Hint" diagnostic virtual text.
 		DiagnosticVirtualTextOk({ DiagnosticOk }), -- Used for "Ok" diagnostic virtual text.
-		DiagnosticUnderlineError({ DiagnosticError }), -- Used to underline "Error" diagnostics.
-		DiagnosticUnderlineWarn({ DiagnosticWarn }), -- Used to underline "Warn" diagnostics.
-		DiagnosticUnderlineInfo({ DiagnosticInfo }), -- Used to underline "Info" diagnostics.
-		DiagnosticUnderlineHint({ DiagnosticHint }), -- Used to underline "Hint" diagnostics.
-		DiagnosticUnderlineOk({ DiagnosticOk }), -- Used to underline "Ok" diagnostics.
+		DiagnosticUnderlineError({ fg = red, gui = "underline" }), -- Used to underline "Error" diagnostics.
+		DiagnosticUnderlineWarn({ fg = yellow, gui = "underline" }), -- Used to underline "Warn" diagnostics.
+		DiagnosticUnderlineInfo({ fg = green, gui = "underline" }), -- Used to underline "Info" diagnostics.
+		DiagnosticUnderlineHint({ fg = blue, gui = "underline" }), -- Used to underline "Hint" diagnostics.
+		DiagnosticUnderlineOk({ fg = blue, gui = "underline" }), -- Used to underline "Ok" diagnostics.
 		DiagnosticFloatingError({ DiagnosticError }), -- Used to color "Error" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
 		DiagnosticFloatingWarn({ DiagnosticWarn }), -- Used to color "Warn" diagnostic messages in diagnostics float.
 		DiagnosticFloatingInfo({ DiagnosticInfo }), -- Used to color "Info" diagnostic messages in diagnostics float.
