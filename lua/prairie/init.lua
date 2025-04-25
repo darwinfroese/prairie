@@ -314,6 +314,7 @@ local theme = lush(function(injected_functions)
 
 		-- LSP Markup
 		sym("@markup.raw.block.markdown")({ fg = fg.darken(5), bg = bg.darken(5) }),
+		sym("@spell.markdown")({ fg = fg.darken(5), bg = bg.darken(5) }),
 	}
 end)
 
