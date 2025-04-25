@@ -117,7 +117,7 @@ local theme = lush(function(injected_functions)
 		MoreMsg({ ModeMsg }), -- |more-prompt|
 		NonText({ fg = fg_light, gui = "italic" }), -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
 		NormalFloat({ Normal }), -- Normal text in floating windows.
-		FloatBorder({ fg = blue, bg = blue }), -- Border of floating windows.
+		FloatBorder({ fg = blue, bg = bg }), -- Border of floating windows.
 		FloatTitle({ Normal }), -- Title of floating windows.
 		NormalNC({ Normal }), -- normal text in non-current windows
 		Pmenu({ fg = Normal.fg, bg = Normal.bg.darken(5) }), -- Popup menu: Normal item.
@@ -313,8 +313,8 @@ local theme = lush(function(injected_functions)
 		sym("typescriptBraces")({ fg = fg }),
 
 		-- LSP Markup
-		sym("@markup.raw.block.markdown")({ fg = fg.darken(5), bg = bg.darken(5) }),
-		sym("@spell.markdown")({ fg = fg.darken(5), bg = bg.darken(5) }),
+		sym("@markup.raw.block.markdown")({ fg = fg, bg = bg }),
+		sym("@spell.markdown")({ fg = fg, bg = bg }),
 	}
 end)
 
