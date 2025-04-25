@@ -120,11 +120,11 @@ local theme = lush(function(injected_functions)
 		FloatBorder({ fg = blue, bg = blue }), -- Border of floating windows.
 		FloatTitle({ Normal }), -- Title of floating windows.
 		NormalNC({ Normal }), -- normal text in non-current windows
-		Pmenu({ Normal }), -- Popup menu: Normal item.
-		PmenuSel({ Normal, bg = bg_visual }), -- Popup menu: Selected item.
-		PmenuKind({ Normal }), -- Popup menu: Normal item "kind"
+		Pmenu({ fg = Normal.fg, bg = Normal.bg.darken(5) }), -- Popup menu: Normal item.
+		PmenuSel({ fg = Normal.fg, bg = bg_visual.darken(5) }), -- Popup menu: Selected item.
+		PmenuKind({ Pmenu }), -- Popup menu: Normal item "kind"
 		PmenuKindSel({ PmenuSel }), -- Popup menu: Selected item "kind"
-		PmenuExtra({ Normal }), -- Popup menu: Normal item "extra text"
+		PmenuExtra({ Pmenu }), -- Popup menu: Normal item "extra text"
 		PmenuExtraSel({ PmenuSel }), -- Popup menu: Selected item "extra text"
 		PmenuSbar({ Normal }), -- Popup menu: Scrollbar.
 		PmenuThumb({ Normal }), -- Popup menu: Thumb of the scrollbar.
@@ -311,6 +311,9 @@ local theme = lush(function(injected_functions)
 		-- Typescript
 		sym("tsxTagName")({ fg = fg }),
 		sym("typescriptBraces")({ fg = fg }),
+
+		-- LSP Markup
+		sym("@markup.raw.block.markdown")({ fg = fg.darken(5), bg = bg.darken(5) }),
 	}
 end)
 
