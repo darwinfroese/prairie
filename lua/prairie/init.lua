@@ -48,8 +48,6 @@ local theme = lush(function(injected_functions)
 	local sym = injected_functions.sym
 
 	-- colors --
-	local unset = hsl(340, 100, 50)
-
 	local bg = hsl(40, 100, 91)
 	local bg_visual = hsl(40, 100, 85)
 
