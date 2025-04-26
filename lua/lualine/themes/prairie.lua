@@ -1,7 +1,3 @@
--- Lualine theme
--- Put it under lualine.nvim/lua/lualine/themes/ and then set options.theme to
--- 'prairie'
-
 local colors = {
 	magenta = "#ff44c1",
 	red = "#ff3336",
@@ -11,11 +7,6 @@ local colors = {
 	white = "#a7a7a7",
 
 	background = "#ffe5b3",
-
-	-- violet = "#646695",
-	-- purple = "#68217a",
-	-- lightgray = "#454545",
-	-- gray = "#252526",
 }
 
 return {
