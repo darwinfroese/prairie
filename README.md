@@ -40,9 +40,9 @@ Below are some screenshots in action.
 
 ### Terminal
 
-[!screenshots/terminal.png]
+![Terminal with Prairie Colorscheme](screenshots/terminal.png)
 
 ### Neovim
 
-[!screenshots/neovim.png]
+![NeoVim with Prairie Colorscheme](screenshots/neovim.png)
 
