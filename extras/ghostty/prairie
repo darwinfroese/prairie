@@ -1,0 +1,24 @@
+##  # # # # # # # # # # # Prairie  # # # # # # # # # # # # # # # # # ##
+
+background = fff0d1
+foreground = 190b00
+
+# normal
+palette = 0=190b00
+palette = 1=ff3336
+palette = 2=3d7f2e
+palette = 3=afa53c
+palette = 4=0065ad
+palette = 5=ff44c1
+palette = 6=00b5c3
+palette = 7=a7a7a7
+
+# bright
+palette = 8=937c6c
+palette = 9=ff3336
+palette = 10=3d7f2e
+palette = 11=afa53c
+palette = 12=0065ad
+palette = 13=ff44c1
+palette = 14=00b5c3
+palette = 15=a7a7a7

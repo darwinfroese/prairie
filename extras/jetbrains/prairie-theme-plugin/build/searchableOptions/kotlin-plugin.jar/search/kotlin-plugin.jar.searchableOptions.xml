@@ -1,0 +1,460 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="benchmark" path="ActionManager" hit="Benchmark Highlighting" />
+    <option name="highlighting" path="ActionManager" hit="Benchmark Highlighting" />
+    <option name="check" path="ActionManager" hit="Check Component Functions Usage Search" />
+    <option name="component" path="ActionManager" hit="Check Component Functions Usage Search" />
+    <option name="functions" path="ActionManager" hit="Check Component Functions Usage Search" />
+    <option name="search" path="ActionManager" hit="Check Component Functions Usage Search" />
+    <option name="usage" path="ActionManager" hit="Check Component Functions Usage Search" />
+    <option name="clear" path="ActionManager" hit="Clear results" />
+    <option name="results" path="ActionManager" hit="Clear results" />
+    <option name="configure" path="ActionManager" hit="Configure Kotlin in Project" />
+    <option name="in" path="ActionManager" hit="Configure Kotlin in Project" />
+    <option name="kotlin" path="ActionManager" hit="Configure Kotlin in Project" />
+    <option name="project" path="ActionManager" hit="Configure Kotlin in Project" />
+    <option name="convert" path="ActionManager" hit="Convert Java File to Kotlin File" />
+    <option name="file" path="ActionManager" hit="Convert Java File to Kotlin File" />
+    <option name="java" path="ActionManager" hit="Convert Java File to Kotlin File" />
+    <option name="kotlin" path="ActionManager" hit="Convert Java File to Kotlin File" />
+    <option name="to" path="ActionManager" hit="Convert Java File to Kotlin File" />
+    <option name="as" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="copy" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="current" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="diagnostic" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="file" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="test" path="ActionManager" hit="Copy Current File As Diagnostic Test" />
+    <option name="clipboard" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="copy" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="kotlin" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="overview" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="project" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="to" path="ActionManager" hit="Copy Kotlin Project Overview To Clipboard" />
+    <option name="backup" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="compilation" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="create" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="debugging" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="for" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="incremental" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="kotlin" path="ActionManager" hit="Create backup for debugging Kotlin incremental compilation" />
+    <option name="class" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="creates" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="file" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="kotlin" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="new" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="or" path="ActionManager" hit="Creates new Kotlin class or file" />
+    <option name="creates" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="kotlin" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="new" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="or" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="script" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="worksheet" path="ActionManager" hit="Creates new Kotlin script or worksheet" />
+    <option name="at" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="caret" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="debug" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="of" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="resolution" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="type" path="ActionManager" hit="Debug Resolution of Type at Caret" />
+    <option name="decompile" path="ActionManager" hit="Decompile to Java" />
+    <option name="java" path="ActionManager" hit="Decompile to Java" />
+    <option name="to" path="ActionManager" hit="Decompile to Java" />
+    <option name="an" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="drop" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="error" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="from" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="kotlin" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="plugin" path="ActionManager" hit="Drop an Error from Kotlin Plugin" />
+    <option name="detection" path="ActionManager" hit="Enable Migrations Detection" />
+    <option name="enable" path="ActionManager" hit="Enable Migrations Detection" />
+    <option name="migrations" path="ActionManager" hit="Enable Migrations Detection" />
+    <option name="analyzing" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="components" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="depending" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="enable" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="files" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="for" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="in" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="kotlin" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="libraries" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="on" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="project" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="source" path="ActionManager" hit="Enable components for analyzing libraries depending on project source files in Kotlin" />
+    <option name="calls" path="ActionManager" hit="Find Implicit Nothing Calls" />
+    <option name="find" path="ActionManager" hit="Find Implicit Nothing Calls" />
+    <option name="implicit" path="ActionManager" hit="Find Implicit Nothing Calls" />
+    <option name="nothing" path="ActionManager" hit="Find Implicit Nothing Calls" />
+    <option name="formatter" path="ActionManager" hit="Formatter Settings Info" />
+    <option name="info" path="ActionManager" hit="Formatter Settings Info" />
+    <option name="settings" path="ActionManager" hit="Formatter Settings Info" />
+    <option name="function" path="ActionManager" hit="Function to Scope…" />
+    <option name="scope" path="ActionManager" hit="Function to Scope…" />
+    <option name="to" path="ActionManager" hit="Function to Scope…" />
+    <option name="function" path="ActionManager" hit="Function…" />
+    <option name="coroutines" path="ActionManager" hit="Get Coroutines Dump" />
+    <option name="dump" path="ActionManager" hit="Get Coroutines Dump" />
+    <option name="get" path="ActionManager" hit="Get Coroutines Dump" />
+    <option name="applicability" path="ActionManager" hit="Inspect Breakpoint Applicability" />
+    <option name="breakpoint" path="ActionManager" hit="Inspect Breakpoint Applicability" />
+    <option name="inspect" path="ActionManager" hit="Inspect Breakpoint Applicability" />
+    <option name="cached" path="ActionManager" hit="Internal: Toggle Throwing Cached PCE" />
+    <option name="internal" path="ActionManager" hit="Internal: Toggle Throwing Cached PCE" />
+    <option name="pce" path="ActionManager" hit="Internal: Toggle Throwing Cached PCE" />
+    <option name="throwing" path="ActionManager" hit="Internal: Toggle Throwing Cached PCE" />
+    <option name="toggle" path="ActionManager" hit="Internal: Toggle Throwing Cached PCE" />
+    <option name="kotlin" path="ActionManager" hit="Kotlin" />
+    <option name="class" path="ActionManager" hit="Kotlin Class/File" />
+    <option name="file" path="ActionManager" hit="Kotlin Class/File" />
+    <option name="kotlin" path="ActionManager" hit="Kotlin Class/File" />
+    <option name="activity" path="ActionManager" hit="Kotlin Project Post-Open Activity" />
+    <option name="kotlin" path="ActionManager" hit="Kotlin Project Post-Open Activity" />
+    <option name="post-open" path="ActionManager" hit="Kotlin Project Post-Open Activity" />
+    <option name="project" path="ActionManager" hit="Kotlin Project Post-Open Activity" />
+    <option name="experimental" path="ActionManager" hit="Kotlin REPL (Experimental)" />
+    <option name="kotlin" path="ActionManager" hit="Kotlin REPL (Experimental)" />
+    <option name="repl" path="ActionManager" hit="Kotlin REPL (Experimental)" />
+    <option name="kotlin" path="ActionManager" hit="Kotlin Script" />
+    <option name="script" path="ActionManager" hit="Kotlin Script" />
+    <option name="configurations" path="ActionManager" hit="Load Script Configurations" />
+    <option name="load" path="ActionManager" hit="Load Script Configurations" />
+    <option name="script" path="ActionManager" hit="Load Script Configurations" />
+    <option name="local" path="ActionManager" hit="Local Scenario" />
+    <option name="scenario" path="ActionManager" hit="Local Scenario" />
+    <option name="function" path="ActionManager" hit="Parameters Function" />
+    <option name="parameters" path="ActionManager" hit="Parameters Function" />
+    <option name="property" path="ActionManager" hit="Property…" />
+    <option name="caches" path="ActionManager" hit="Reset Caches on ProcessCanceledException" />
+    <option name="on" path="ActionManager" hit="Reset Caches on ProcessCanceledException" />
+    <option name="processcanceledexception" path="ActionManager" hit="Reset Caches on ProcessCanceledException" />
+    <option name="reset" path="ActionManager" hit="Reset Caches on ProcessCanceledException" />
+    <option name="a" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="as" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="exception" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="new" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="pce" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="rethrow" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="runtime" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="stored" path="ActionManager" hit="Rethrow stored PCE as a new runtime exception" />
+    <option name="code" path="ActionManager" hit="Run Code Migrations" />
+    <option name="migrations" path="ActionManager" hit="Run Code Migrations" />
+    <option name="run" path="ActionManager" hit="Run Code Migrations" />
+    <option name="file" path="ActionManager" hit="Run Scratch File" />
+    <option name="run" path="ActionManager" hit="Run Scratch File" />
+    <option name="scratch" path="ActionManager" hit="Run Scratch File" />
+    <option name="file" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="run" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="scratch" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="w" path="ActionManager" hit="Run Scratch File (⌥⌘W)" />
+    <option name="candidates" path="ActionManager" hit="Search Not Property Candidates" />
+    <option name="not" path="ActionManager" hit="Search Not Property Candidates" />
+    <option name="property" path="ActionManager" hit="Search Not Property Candidates" />
+    <option name="search" path="ActionManager" hit="Search Not Property Candidates" />
+    <option name="constructor" path="ActionManager" hit="Secondary Constructor" />
+    <option name="secondary" path="ActionManager" hit="Secondary Constructor" />
+    <option name="function" path="ActionManager" hit="SetUp Function" />
+    <option name="setup" path="ActionManager" hit="SetUp Function" />
+    <option name="compiler" path="ActionManager" hit="Show Compiler Index Status" />
+    <option name="index" path="ActionManager" hit="Show Compiler Index Status" />
+    <option name="show" path="ActionManager" hit="Show Compiler Index Status" />
+    <option name="status" path="ActionManager" hit="Show Compiler Index Status" />
+    <option name="dialog" path="ActionManager" hit="Show K2 Kotlin Feedback Dialog" />
+    <option name="feedback" path="ActionManager" hit="Show K2 Kotlin Feedback Dialog" />
+    <option name="k2" path="ActionManager" hit="Show K2 Kotlin Feedback Dialog" />
+    <option name="kotlin" path="ActionManager" hit="Show K2 Kotlin Feedback Dialog" />
+    <option name="show" path="ActionManager" hit="Show K2 Kotlin Feedback Dialog" />
+    <option name="bytecode" path="ActionManager" hit="Show Kotlin Bytecode" />
+    <option name="kotlin" path="ActionManager" hit="Show Kotlin Bytecode" />
+    <option name="show" path="ActionManager" hit="Show Kotlin Bytecode" />
+    <option name="dsl" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="gradle" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="kotlin" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="logs" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="show" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="dialog" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="feedback" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="kotlin" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="onboarding" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="show" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="kotlin" path="ActionManager" hit="Show Kotlin Variables Only" />
+    <option name="only" path="ActionManager" hit="Show Kotlin Variables Only" />
+    <option name="show" path="ActionManager" hit="Show Kotlin Variables Only" />
+    <option name="variables" path="ActionManager" hit="Show Kotlin Variables Only" />
+    <option name="execution" path="ActionManager" hit="Stop scratch execution" />
+    <option name="scratch" path="ActionManager" hit="Stop scratch execution" />
+    <option name="stop" path="ActionManager" hit="Stop scratch execution" />
+    <option name="function" path="ActionManager" hit="TearDown Function" />
+    <option name="teardown" path="ActionManager" hit="TearDown Function" />
+    <option name="function" path="ActionManager" hit="Test Function" />
+    <option name="test" path="ActionManager" hit="Test Function" />
+    <option name="move" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="on" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="opened" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="project" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="refactoring" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="test" path="ActionManager" hit="Test Move Refactoring on Opened Project" />
+    <option name="been" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="changed" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="changes" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="code" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="configuration" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="dsl" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="external" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="get" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="gradle" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="has" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="importing" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="insight" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="kotlin" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="load" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="project" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="script" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="the" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="to" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="without" path="ActionManager" hit="The Gradle Kotlin DSL script configuration has been changed. Load the changes to get code insight without importing the external Gradle project." />
+    <option name="dependency" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="library" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="source" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="support" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="to" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="toggle" path="ActionManager" hit="Toggle Library To Source Dependency Support" />
+    <option name="scenario" path="ActionManager" hit="Top-Level Scenario" />
+    <option name="top-level" path="ActionManager" hit="Top-Level Scenario" />
+    <option name="alias" path="ActionManager" hit="Type Alias…" />
+    <option name="type" path="ActionManager" hit="Type Alias…" />
+    <option name="parameter" path="ActionManager" hit="Type Parameter…" />
+    <option name="type" path="ActionManager" hit="Type Parameter…" />
+    <option name="and" path="ActionManager" hit="equals() and hashCode()" />
+    <option name="equals" path="ActionManager" hit="equals() and hashCode()" />
+    <option name="hashcode" path="ActionManager" hit="equals() and hashCode()" />
+    <option name="kotlin-maven-execution-provider" path="ActionManager" hit="kotlin-maven-execution-provider" />
+    <option name="kotlin-maven-plugin-provider" path="ActionManager" hit="kotlin-maven-plugin-provider" />
+    <option name="tostring" path="ActionManager" hit="toString()" />
+  </configurable>
+  <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
+    <option name="kotlin" hit="Kotlin" />
+  </configurable>
+  <configurable id="project.propDebugger" configurable_name="Debugger">
+    <option name="agent" hit="Disable coroutine agent" />
+    <option name="coroutine" hit="Disable coroutine agent" />
+    <option name="disable" hit="Disable coroutine agent" />
+    <option name="kotlin" hit="Kotlin" />
+  </configurable>
+  <configurable id="debugger.stepping" configurable_name="Stepping">
+    <option name="always" hit="Always do smart step into" />
+    <option name="do" hit="Always do smart step into" />
+    <option name="into" hit="Always do smart step into" />
+    <option name="smart" hit="Always do smart step into" />
+    <option name="step" hit="Always do smart step into" />
+    <option name="classes" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="do" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="implementation" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="into" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="kotlin" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="library" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="not" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="runtime" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="step" hit="Do not step into Kotlin runtime library implementation classes" />
+    <option name="kotlin" hit="Kotlin" />
+  </configurable>
+  <configurable id="preferences.language.Kotlin" configurable_name="Kotlin">
+    <option name="kotlin" hit="Kotlin" />
+  </configurable>
+  <configurable id="copyright.filetypes.Kotlin" configurable_name="Kotlin">
+    <option name="a" hit="Add blank line after" />
+    <option name="after" hit="Add blank line after" />
+    <option name="blank" hit="Add blank line after" />
+    <option name="dd" hit="Add blank line after" />
+    <option name="line" hit="Add blank line after" />
+    <option name="add" hit="Add blank line before" />
+    <option name="before" hit="Add blank line before" />
+    <option name="blank" hit="Add blank line before" />
+    <option name="line" hit="Add blank line before" />
+    <option name="afte" hit="After other comments" />
+    <option name="comments" hit="After other comments" />
+    <option name="other" hit="After other comments" />
+    <option name="r" hit="After other comments" />
+    <option name="bef" hit="Before other comments" />
+    <option name="comments" hit="Before other comments" />
+    <option name="ore" hit="Before other comments" />
+    <option name="other" hit="Before other comments" />
+    <option name="borders" hit="Borders" />
+    <option name="box" hit="Box" />
+    <option name="comment" hit="Comment Type" />
+    <option name="type" hit="Comment Type" />
+    <option name="kotlin" hit="Kotlin" />
+    <option name="length" hit="Length:" />
+    <option name="copyright" hit="No copyright" />
+    <option name="no" hit="No copyright" />
+    <option name="each" hit="Prefix each line" />
+    <option name="line" hit="Prefix each line" />
+    <option name="prefix" hit="Prefix each line" />
+    <option name="location" hit="Relative Location" />
+    <option name="relative" hit="Relative Location" />
+    <option name="after" hit="Separator after" />
+    <option name="separator" hit="Separator after" />
+    <option name="before" hit="Separator before" />
+    <option name="separator" hit="Separator before" />
+    <option name="separator" hit="Separator:" />
+    <option name="block" hit="Use block comment" />
+    <option name="comment" hit="Use block comment" />
+    <option name="use" hit="Use block comment" />
+    <option name="custom" hit="Use custom formatting options" />
+    <option name="formatting" hit="Use custom formatting options" />
+    <option name="options" hit="Use custom formatting options" />
+    <option name="use" hit="Use custom formatting options" />
+    <option name="default" hit="Use default settings" />
+    <option name="settings" hit="Use default settings" />
+    <option name="use" hit="Use default settings" />
+    <option name="comment" hit="Use line comment" />
+    <option name="line" hit="Use line comment" />
+    <option name="use" hit="Use line comment" />
+  </configurable>
+  <configurable id="project.kotlinCompiler" configurable_name="Kotlin Compiler">
+    <option name="1" hit="1.4 (deprecated)" />
+    <option name="4" hit="1.4 (deprecated)" />
+    <option name="deprecated" hit="1.4 (deprecated)" />
+    <option name="1" hit="1.5 (deprecated)" />
+    <option name="5" hit="1.5 (deprecated)" />
+    <option name="deprecated" hit="1.5 (deprecated)" />
+    <option name="1" hit="1.6 (deprecated)" />
+    <option name="6" hit="1.6 (deprecated)" />
+    <option name="deprecated" hit="1.6 (deprecated)" />
+    <option name="1" hit="1.7" />
+    <option name="7" hit="1.7" />
+    <option name="1" hit="1.8" />
+    <option name="8" hit="1.8" />
+    <option name="1" hit="1.9" />
+    <option name="9" hit="1.9" />
+    <option name="10" hit="10" />
+    <option name="11" hit="11" />
+    <option name="12" hit="12" />
+    <option name="13" hit="13" />
+    <option name="14" hit="14" />
+    <option name="15" hit="15" />
+    <option name="16" hit="16" />
+    <option name="17" hit="17" />
+    <option name="18" hit="18" />
+    <option name="19" hit="19" />
+    <option name="20" hit="20" />
+    <option name="21" hit="21" />
+    <option name="9" hit="9" />
+    <option name="amd" hit="AMD" />
+    <option name="api" hit="API version" />
+    <option name="version" hit="API version" />
+    <option name="additional" hit="Additional command line parameters:" />
+    <option name="command" hit="Additional command line parameters:" />
+    <option name="line" hit="Additional command line parameters:" />
+    <option name="parameters" hit="Additional command line parameters:" />
+    <option name="always" hit="Always" />
+    <option name="1" hit="Bundled (1.9.23-release-779)" />
+    <option name="23-release-779" hit="Bundled (1.9.23-release-779)" />
+    <option name="9" hit="Bundled (1.9.23-release-779)" />
+    <option name="bundled" hit="Bundled (1.9.23-release-779)" />
+    <option name="commonjs" hit="CommonJS" />
+    <option name="copy" hit="Copy library runtime files" />
+    <option name="files" hit="Copy library runtime files" />
+    <option name="library" hit="Copy library runtime files" />
+    <option name="runtime" hit="Copy library runtime files" />
+    <option name="destination" hit="Destination directory" />
+    <option name="directory" hit="Destination directory" />
+    <option name="code" hit="Embed source code into source map:" />
+    <option name="embed" hit="Embed source code into source map:" />
+    <option name="into" hit="Embed source code into source map:" />
+    <option name="map" hit="Embed source code into source map:" />
+    <option name="source" hit="Embed source code into source map:" />
+    <option name="compilation" hit="Enable incremental compilation" />
+    <option name="enable" hit="Enable incremental compilation" />
+    <option name="incremental" hit="Enable incremental compilation" />
+    <option name="generate" hit="Generate source maps" />
+    <option name="maps" hit="Generate source maps" />
+    <option name="source" hit="Generate source maps" />
+    <option name="alive" hit="Keep compiler process alive between invocations" />
+    <option name="between" hit="Keep compiler process alive between invocations" />
+    <option name="compiler" hit="Keep compiler process alive between invocations" />
+    <option name="invocations" hit="Keep compiler process alive between invocations" />
+    <option name="keep" hit="Keep compiler process alive between invocations" />
+    <option name="process" hit="Keep compiler process alive between invocations" />
+    <option name="compiler" hit="Kotlin Compiler" />
+    <option name="kotlin" hit="Kotlin Compiler" />
+    <option name="beta" hit="Kotlin Script (Beta)" />
+    <option name="kotlin" hit="Kotlin Script (Beta)" />
+    <option name="script" hit="Kotlin Script (Beta)" />
+    <option name="compiler" hit="Kotlin compiler version" />
+    <option name="kotlin" hit="Kotlin compiler version" />
+    <option name="version" hit="Kotlin compiler version" />
+    <option name="jvm" hit="Kotlin to JVM" />
+    <option name="kotlin" hit="Kotlin to JVM" />
+    <option name="to" hit="Kotlin to JVM" />
+    <option name="javascript" hit="Kotlin to JavaScript" />
+    <option name="kotlin" hit="Kotlin to JavaScript" />
+    <option name="to" hit="Kotlin to JavaScript" />
+    <option name="language" hit="Language version" />
+    <option name="version" hit="Language version" />
+    <option name="available" hit="Loading available versions from Maven..." />
+    <option name="from" hit="Loading available versions from Maven..." />
+    <option name="loading" hit="Loading available versions from Maven..." />
+    <option name="maven" hit="Loading available versions from Maven..." />
+    <option name="versions" hit="Loading available versions from Maven..." />
+    <option name="kind" hit="Module kind:" />
+    <option name="module" hit="Module kind:" />
+    <option name="never" hit="Never" />
+    <option name="global" hit="Plain (put to global scope)" />
+    <option name="plain" hit="Plain (put to global scope)" />
+    <option name="put" hit="Plain (put to global scope)" />
+    <option name="scope" hit="Plain (put to global scope)" />
+    <option name="to" hit="Plain (put to global scope)" />
+    <option name="compiler" hit="Report compiler warnings" />
+    <option name="report" hit="Report compiler warnings" />
+    <option name="warnings" hit="Report compiler warnings" />
+    <option name="jvm" hit="Target JVM version" />
+    <option name="target" hit="Target JVM version" />
+    <option name="version" hit="Target JVM version" />
+    <option name="amd" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="available" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="commonjs" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="detect" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="fallback" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="if" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="or" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="plain" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="to" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="umd" hit="UMD (detect AMD or CommonJS if available, fallback to plain)" />
+    <option name="a" hit="When inlining a function from other module with embedded sources" />
+    <option name="embedded" hit="When inlining a function from other module with embedded sources" />
+    <option name="from" hit="When inlining a function from other module with embedded sources" />
+    <option name="function" hit="When inlining a function from other module with embedded sources" />
+    <option name="inlining" hit="When inlining a function from other module with embedded sources" />
+    <option name="module" hit="When inlining a function from other module with embedded sources" />
+    <option name="other" hit="When inlining a function from other module with embedded sources" />
+    <option name="sources" hit="When inlining a function from other module with embedded sources" />
+    <option name="when" hit="When inlining a function from other module with embedded sources" />
+    <option name="with" hit="When inlining a function from other module with embedded sources" />
+  </configurable>
+  <configurable id="preferences.language.Kotlin.scripting" configurable_name="Kotlin Scripting">
+    <option name="auto" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="automatically" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="change" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="configurations" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="enable" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="file" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="if" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="load" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="on" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="reload" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="script" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="to" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="want" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="you" hit="Enable auto reload if you want to load script configurations automatically on file change" />
+    <option name="dsl" hit="Gradle Kotlin DSL Scripts" />
+    <option name="gradle" hit="Gradle Kotlin DSL Scripts" />
+    <option name="kotlin" hit="Gradle Kotlin DSL Scripts" />
+    <option name="scripts" hit="Gradle Kotlin DSL Scripts" />
+    <option name="kotlin" hit="Kotlin Scripting" />
+    <option name="scripting" hit="Kotlin Scripting" />
+    <option name="definitions" hit="Manage Script Definitions" />
+    <option name="manage" hit="Manage Script Definitions" />
+    <option name="script" hit="Manage Script Definitions" />
+    <option name="manage" hit="Manage Standalone Scripts" />
+    <option name="scripts" hit="Manage Standalone Scripts" />
+    <option name="standalone" hit="Manage Standalone Scripts" />
+  </configurable>
+</options>

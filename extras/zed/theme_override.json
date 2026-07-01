@@ -1,0 +1,79 @@
+{
+  "theme_overrides": {
+    "Atelier Heath Light": {
+      "background": "#ffe5b3",
+      "surface.background": "#ffe5b3",
+      "editor.background": "#ffe5b3",
+      "editor.active_line.background": "#f5e6c8",
+      "editor.gutter.background": "#ffe5b3",
+      "tab.active_background": "#ffe5b3",
+      "tab.inactive_background": "#f5e6c8",
+      "status_bar.background": "#f5e6c8",
+      "title_bar.background": "#f5e6c8",
+      "toolbar.background": "#ffe5b3",
+      "panel.background": "#f5e6c8",
+      "element.background": "#f5e6c8",
+      "text": "#140400",
+      "editor.foreground": "#140400",
+      "syntax": {
+        "comment": {
+          "color": "#0065ad",
+          "font_style": "italic"
+        },
+        "comment.doc": {
+          "color": "#0065ad",
+          "font_style": "italic"
+        },
+        "string": {
+          "color": "#3d7f2e",
+          "font_style": "italic"
+        },
+        "string.escape": {
+          "color": "#3d7f2e",
+          "font_style": "italic"
+        },
+        "string.regex": {
+          "color": "#3d7f2e",
+          "font_style": "italic"
+        },
+        "constant": {
+          "color": "#140400",
+          "font_weight": 700
+        },
+        "function": {
+          "color": "#140400",
+          "font_weight": 700
+        },
+        "keyword": {
+          "color": "#140400",
+          "font_weight": 700,
+          "font_style": "italic"
+        },
+        "type": {
+          "color": "#140400",
+          "font_weight": 700
+        },
+        "property": {
+          "color": "#140400",
+          "font_weight": 700
+        },
+        "variable": {
+          "color": "#140400",
+          "font_style": "italic"
+        },
+        "primary": {
+          "color": "#140400"
+        },
+        "punctuation": {
+          "color": "#140400"
+        },
+        "number": {
+          "color": "#140400"
+        },
+        "boolean": {
+          "color": "#140400"
+        }
+      }
+    }
+  }
+}

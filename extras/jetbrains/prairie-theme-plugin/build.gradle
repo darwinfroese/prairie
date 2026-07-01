@@ -1,0 +1,32 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.17.2'
+    id 'java'
+}
+
+group = 'com.prairie.theme'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    version = '2024.1'
+    type = 'IC'
+    plugins = []
+}
+
+patchPluginXml {
+    sinceBuild = '213'
+    untilBuild = '261.*'
+}
+
+signPlugin {
+    certificateChain = System.getenv("CERTIFICATE_CHAIN")
+    privateKey = System.getenv("PRIVATE_KEY")
+    password = System.getenv("PRIVATE_KEY_PASSWORD")
+}
+
+publishPlugin {
+    token = System.getenv("PUBLISH_TOKEN")
+}

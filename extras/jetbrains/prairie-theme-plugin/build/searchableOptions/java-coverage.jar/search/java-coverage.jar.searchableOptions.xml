@@ -1,0 +1,27 @@
+<options>
+  <configurable id="coverage" configurable_name="Coverage">
+    <option name="branch" hit="Branch coverage" />
+    <option name="coverage" hit="Branch coverage" />
+    <option name="collect" hit="Collect coverage in test folders" />
+    <option name="coverage" hit="Collect coverage in test folders" />
+    <option name="folders" hit="Collect coverage in test folders" />
+    <option name="in" hit="Collect coverage in test folders" />
+    <option name="test" hit="Collect coverage in test folders" />
+    <option name="annotations" hit="Exclude annotations:" />
+    <option name="exclude" hit="Exclude annotations:" />
+    <option name="constructors" hit="Ignore implicitly declared default constructors" />
+    <option name="declared" hit="Ignore implicitly declared default constructors" />
+    <option name="default" hit="Ignore implicitly declared default constructors" />
+    <option name="ignore" hit="Ignore implicitly declared default constructors" />
+    <option name="implicitly" hit="Ignore implicitly declared default constructors" />
+    <option name="idea" hit="IntelliJ IDEA" />
+    <option name="intellij" hit="IntelliJ IDEA" />
+    <option name="jacoco" hit="JaCoCo" />
+    <option name="coverage" hit="Java Coverage" />
+    <option name="java" hit="Java Coverage" />
+    <option name="coverage" hit="Track per test coverage" />
+    <option name="per" hit="Track per test coverage" />
+    <option name="test" hit="Track per test coverage" />
+    <option name="track" hit="Track per test coverage" />
+  </configurable>
+</options>
