@@ -1,0 +1,85 @@
+extras/zed/theme_override.json
+  c047b63ea48c32a5 1-79
+extras/jetbrains/README.md
+  ec20141fcb86a301 1-43
+extras/zed/README.md
+  c047b63ea48c32a5 1-38
+extras/jetbrains/prairie-theme-plugin/src/main/resources/META-INF/plugin.xml
+  ec20141fcb86a301 1-33
+extras/jetbrains/prairie-theme-plugin/src/main/resources/themes/prairie.theme.json
+  ec20141fcb86a301 1-349
+extras/jetbrains/prairie-theme-plugin/README.md
+  ec20141fcb86a301 1-42
+extras/jetbrains/prairie.icls
+  ec20141fcb86a301 1-10,12-49,51-174,176-179,181-185,187-197,199-218
+  d44f7b78cd3a96b5 11,50,175,180,186,198
+extras/jetbrains/prairie-theme-plugin/build.gradle
+  8a883a29af0363ad 14,21
+  ec20141fcb86a301 1-13,15-20,22-32
+extras/jetbrains/prairie-theme-plugin/gradlew
+  ec20141fcb86a301 1-204
+extras/jetbrains/prairie-theme-plugin/src/main/resources/themes/prairie.icls
+  ec20141fcb86a301 1-10,12-49,51-174,176-179,181-185,187-197,199-218
+  d44f7b78cd3a96b5 11,50,175,180,186,198
+extras/jetbrains/prairie.theme.json
+  ec20141fcb86a301 1-349
+extras/zed/prairie.json
+  c047b63ea48c32a5 1-306
+extras/jetbrains/prairie-theme-plugin/gradle/wrapper/gradle-wrapper.properties
+  ec20141fcb86a301 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "2e5d59c3b98c2e11130a0015d2354a1b55184982",
+  "prompts": {
+    "8a883a29af0363ad": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ea725072-5a5f-46dc-9f73-6aaeba514b08",
+        "model": "claude-sonnet-4-20250514"
+      },
+      "human_author": "Darwin Froese <froese.darwin@gmail.com>",
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "c047b63ea48c32a5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "64b3c4be-d7a6-4061-9271-fc5ebe905943",
+        "model": "claude-sonnet-4-20250514"
+      },
+      "human_author": "Darwin Froese <froese.darwin@gmail.com>",
+      "total_additions": 432,
+      "total_deletions": 9,
+      "accepted_lines": 423,
+      "overriden_lines": 0
+    },
+    "d44f7b78cd3a96b5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d2771e5-b1eb-40c6-ac52-750c596ca27a",
+        "model": "claude-sonnet-4-20250514"
+      },
+      "human_author": "Darwin Froese <froese.darwin@gmail.com>",
+      "total_additions": 12,
+      "total_deletions": 12,
+      "accepted_lines": 12,
+      "overriden_lines": 0
+    },
+    "ec20141fcb86a301": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "78954b9a-1d2f-4f56-a2c5-0471f9c05519",
+        "model": "claude-sonnet-4-20250514"
+      },
+      "human_author": "Darwin Froese <froese.darwin@gmail.com>",
+      "total_additions": 1803,
+      "total_deletions": 308,
+      "accepted_lines": 1481,
+      "overriden_lines": 0
+    }
+  }
+}
